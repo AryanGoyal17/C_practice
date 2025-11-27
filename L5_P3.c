@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int factorial(int num);
+int answer(int n, int r);
 
 int main(){
 
@@ -14,11 +15,9 @@ int main(){
     printf("Enter r: ");
     scanf("%d", &r);
 
-    int n_fact = factorial(n);
-    int r_fact = factorial(r);
-    int nr_fact = factorial(n - r);
 
-    int nCr = (n_fact)/(r_fact * nr_fact);
+
+    int nCr = answer(n,r);
 
     printf("Answer = %d\n", nCr);
 
@@ -35,4 +34,10 @@ int factorial(int num){
 
     return fact;
 
+}
+
+int answer(int n, int r){
+    
+    int NCR = (factorial(n))/ (factorial(r) * factorial(n - r));
+    return NCR;
 }
