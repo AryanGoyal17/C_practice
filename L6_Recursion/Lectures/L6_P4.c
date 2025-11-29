@@ -1,4 +1,4 @@
-//Printing 1 to n using Recursion
+//Printing 1 to n using Recursion(Using Extra Parameter)
 
 #include <stdio.h>
 
