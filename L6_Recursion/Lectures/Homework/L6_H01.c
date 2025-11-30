@@ -1,4 +1,4 @@
-//Homework_question-1
+//q1
 //First print n to 1 and then print 1 to n
 
 #include <stdio.h>
