@@ -1,7 +1,6 @@
 //Make a function which calculates 'a' raised to the power 'b' using Recursion
 
 #include <stdio.h>
-#include <math.h>
 
 int a_pow_b(int a, int b);
 
