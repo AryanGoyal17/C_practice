@@ -1,4 +1,4 @@
-//Insertion In Array
+//Insertion in an Array
 
 #include <stdio.h>
 
@@ -11,6 +11,8 @@ int main(){
 
     printf("Enter the position at which you want to insert the number: ");
     scanf("%d", &pos);
+
+    if(pos >= 1 && pos <= n + 1){//Validation
 
     printf("Enter the number you want to insert: ");
     scanf("%d", &val);
@@ -33,6 +35,11 @@ int main(){
     for(k = 0; k < n; k++){
         printf("%d ", arr[k]);
     }
+
+}
+else{
+    printf("Invalid position entered!!\n");
+}
 
     return 0;
 }
