@@ -1,4 +1,4 @@
-//Stair path question(3 jumps max)
+//Stair path question[3 jumps max]
 
 #include <stdio.h>
 
